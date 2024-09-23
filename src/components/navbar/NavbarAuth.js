@@ -479,7 +479,7 @@ export default function AuthNavbar(props) {
             />
           </Box>
           {linksAuth}
-          <Link href='https://www.horizon-ui.com/pro'>
+          <Link href='https://www.diamondbigger.com'>
             <Button
               bg={bgButton}
               color={colorButton}
@@ -491,7 +491,7 @@ export default function AuthNavbar(props) {
                 sm: "none",
                 lg: "flex",
               }}>
-              Buy Now
+              Visit
             </Button>
           </Link>
         </Flex>

@@ -6,14 +6,12 @@ import {
   List,
   ListItem,
   Text,
-  Button,
-  useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function Footer() {
   const textColor = useColorModeValue("gray.400", "white");
-  const { toggleColorMode } = useColorMode();
+
   return (
     <Flex
       zIndex='3'
@@ -38,14 +36,14 @@ export default function Footer() {
         {" "}
         &copy; {1900 + new Date().getYear()}
         <Text as='span' fontWeight='500' ms='4px'>
-          Horizon UI. All Rights Reserved. Made with love by
+          Diamondbigger NFT Plataform. All Rights Reserved. Made with love by - Diamondbigger
           <Link
             mx='3px'
             color={textColor}
-            href='https://www.simmmple.com?ref=horizon-chakra-free'
+            href=''
             target='_blank'
             fontWeight='700'>
-            Simmmple!
+            Link!
           </Link>
         </Text>
       </Text>
@@ -58,8 +56,8 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={textColor}
-            href='mailto:hello@simmmple.com'>
-            Support
+            href='diamondbiggersupplychain@gmail.com'>
+            Contact
           </Link>
         </ListItem>
         <ListItem
@@ -70,19 +68,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={textColor}
-            href='https://www.simmmple.com/licenses?ref=horizon-chakra-free'>
-            License
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            fontWeight='500'
-            color={textColor}
-            href='https://simmmple.com/terms-of-service?ref=horizon-chakra-free'>
+            href=''>
             Terms of Use
           </Link>
         </ListItem>
@@ -90,7 +76,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={textColor}
-            href='https://www.blog.simmmple.com/?ref=horizon-chakra-free'>
+            href=''>
             Blog
           </Link>
         </ListItem>

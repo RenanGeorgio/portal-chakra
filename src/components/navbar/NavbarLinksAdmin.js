@@ -142,7 +142,7 @@ export default function HeaderLinks(props) {
               borderRadius="8px"
               mb="10px"
             >
-              <ItemContent info="Horizon UI Dashboard PRO" />
+              <ItemContent info="Diamondbigger NFT Dashboard PRO" />
             </MenuItem>
             <MenuItem
               _hover={{ bg: 'none' }}
@@ -151,7 +151,7 @@ export default function HeaderLinks(props) {
               borderRadius="8px"
               mb="10px"
             >
-              <ItemContent info="Horizon Design System Free" />
+              <ItemContent info="Diamondbigger NFT Design System" />
             </MenuItem>
           </Flex>
         </MenuList>
