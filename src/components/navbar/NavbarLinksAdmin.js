@@ -5,7 +5,6 @@ import {
   Flex,
   Icon,
   Image,
-  Link,
   Menu,
   MenuButton,
   MenuItem,
@@ -42,7 +41,7 @@ export default function HeaderLinks(props) {
     '14px 17px 40px 4px rgba(112, 144, 176, 0.18)',
     '14px 17px 40px 4px rgba(112, 144, 176, 0.06)',
   );
-  const borderButton = useColorModeValue('secondaryGray.500', 'whiteAlpha.200');
+ 
   return (
     <Flex
       w={{ sm: '100%', md: 'auto' }}
@@ -181,42 +180,6 @@ export default function HeaderLinks(props) {
           maxW={{ base: '360px', md: 'unset' }}
         >
           <Image src={navImage} borderRadius="16px" mb="28px" />
-          <Flex flexDirection="column">
-            <Link w="100%" href="https://horizon-ui.com/pro">
-              <Button w="100%" h="44px" mb="10px" variant="brand">
-                Buy Horizon UI PRO
-              </Button>
-            </Link>
-            <Link
-              w="100%"
-              href="https://horizon-ui.com/documentation/docs/introduction"
-            >
-              <Button
-                w="100%"
-                h="44px"
-                mb="10px"
-                border="1px solid"
-                bg="transparent"
-                borderColor={borderButton}
-              >
-                See Documentation
-              </Button>
-            </Link>
-            <Link
-              w="100%"
-              href="https://github.com/horizon-ui/horizon-ui-chakra-ts"
-            >
-              <Button
-                w="100%"
-                h="44px"
-                variant="no-hover"
-                color={textColor}
-                bg="transparent"
-              >
-                Try Horizon Free
-              </Button>
-            </Link>
-          </Flex>
         </MenuList>
       </Menu>
 
